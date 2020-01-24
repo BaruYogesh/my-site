@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    background-color: lightblue;
+    align-items: center;
+    text-align: center;
+}
+
+.header-button {
+    font-size: 24px;
+    padding: 0px 20px 0px 20px;
+    margin: 0 auto;
+    
+}
+
+.bold {
+    font-weight: bold;
+}
