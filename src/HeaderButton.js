@@ -17,9 +17,8 @@ class HeaderButton extends React.Component {
             className += 'hover '
         }
         return (
-            <div className={className} >
-                <p onMouseEnter={this.handleEnter} onMouseLeave={this.handleLeave}>  {this.props.title}</p>
-                
+            <div className={className} onMouseEnter={this.handleEnter} onMouseLeave={this.handleLeave} >
+                <p>{this.props.title}</p>
             </div>
         )
         

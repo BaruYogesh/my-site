@@ -1,8 +1,17 @@
 import React from 'react';
 import './Pages.css';
 
+import {Icon} from './Icon';
+
 export function Social(){
-    return <h2>Social</h2>
+    return (
+        <div className='page'>
+            <h2>Social</h2>
+
+            <Icon link="github.com/BaruYogesh" image={require('./icons/github.png')} />
+            
+        </div>
+    )
 }
 
 export function About(){
