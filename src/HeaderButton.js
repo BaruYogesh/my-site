@@ -14,7 +14,7 @@ class HeaderButton extends React.Component {
     render() {
         let className = 'header-button '
         if(this.state.bold){
-            className += 'bold '
+            className += 'hover '
         }
         return (
             <div className={className} >
