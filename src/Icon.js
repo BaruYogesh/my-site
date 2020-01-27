@@ -1,10 +1,10 @@
 import React from 'react';
 
-export function Icon(){
+export function Icon(props){
     return (
         <div className='icon'>
-            <a href={this.props.link}>
-                <img src={this.props.image} alt="icon"/>
+            <a href={props.link} target="_blank" rel="noopener noreferrer">
+                <img src={props.image} alt="icon"/>
             </a>
         </div>
     )

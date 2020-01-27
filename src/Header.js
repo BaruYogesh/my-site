@@ -7,8 +7,7 @@ import {  BrowserRouter as Router,
 import {
     Home,
     About,
-    Social,
-    Gaming
+    Social
 } from './Pages'
 import HeaderButton from './HeaderButton'
 import './Header.css'

@@ -7,8 +7,6 @@ export function Social(){
     return (
         <div className='page'>
             <h2>Social</h2>
-
-            <Icon link="github.com/BaruYogesh" image={require('./icons/github.png')} />
             
         </div>
     )
